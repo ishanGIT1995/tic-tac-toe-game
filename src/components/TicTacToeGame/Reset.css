@@ -1,0 +1,16 @@
+.Reset button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 150px;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 700;
+  color: aquamarine;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #040134;
+}

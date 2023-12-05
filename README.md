@@ -1,4 +1,6 @@
 
+# Tic-Tac-Toe Game
+Welcome to the Tic-Tac-Toe game developed using JavaScript, React, and Material-UI!
 
 
 
@@ -20,8 +22,8 @@
 
 
 # Technologies Used:
-JavaScript: The core logic of the game is implemented in JavaScript, making it dynamic and engaging.
-React: The game is built using React, a popular JavaScript library for building user interfaces. React's component-based architecture enhances code organization and reusability.
-Material-UI: The Material-UI library is employed for designing a modern and aesthetically pleasing user interface.
+- **JavaScript:** The core logic of the game is implemented in JavaScript, making it dynamic and engaging.
+- **React:** The game is built using React, a popular JavaScript library for building user interfaces. React's component-based architecture enhances code organization and reusability.
+- **Material-UI:** The Material-UI library is employed for designing a modern and aesthetically pleasing user interface.
 
 

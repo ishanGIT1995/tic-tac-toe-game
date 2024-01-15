@@ -7,6 +7,7 @@ import GameState from "./GameState";
 import Reset from "./Reset";
 import gameover from "./sounds/gameover.wav";
 import click from "./sounds/click.wav";
+// import GameState from "./GameState";
 
 const gameOverSound = new Audio(gameover);
 gameOverSound.volume = 0.3;
@@ -70,7 +71,7 @@ const Board = ({ tiles, setTiles }) => {
   const handleTileClick = (index) => {
     tileIndex = index;
 
-    if (gameState != GameState.inProgress) {
+    if (gameState !== GameState.inProgress) {
       return;
     }
 
@@ -114,11 +115,13 @@ const Board = ({ tiles, setTiles }) => {
 
   return (
     <div>
-      {playerTurn === PLAYER_X ? (
+      {/* {playerTurn === PLAYER_X ? (
         <h1>{`${PLAYER_X} Turn`}</h1>
       ) : (
         <h1>{`${PLAYER_O} Turn`}</h1>
-      )}
+      )} */}
+
+      {gameState === GameState.inProgress && <h1>{`${playerTurn} Turn`}</h1>}
 
       <Tile
         tileIndex={tileIndex}

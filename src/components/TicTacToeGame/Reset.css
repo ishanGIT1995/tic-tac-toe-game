@@ -13,4 +13,5 @@
   border: none;
   cursor: pointer;
   background-color: #040134;
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan;
 }

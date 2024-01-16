@@ -10,20 +10,37 @@ This project is a simple implementation of the classic Tic Tac Toe game using Re
 - Sound effects for tile clicks and game over events.
 - Play again functionality to reset the game.
 
-  Usage
+  ## Usage
 - Click on an empty tile to make a move.
 - The game indicates whose turn it is.
 - When a player wins or the game ends in a draw, sound effects play.
 - Click "Play Again" to reset the game.
 
-## Getting Started
 
 
-![start](https://github.com/ishanGIT1995/tic-tac-toe-game/assets/104643461/037b3073-57be-4a9c-8d29-8ed54ba0ff9c)
+### HomeScreen
+![HomeScreen](https://github.com/ishanGIT1995/tic-tac-toe-game/assets/104643461/3b924e66-145d-4edd-8e8c-8efbb263a5b9)
 
-![Draw](https://github.com/ishanGIT1995/tic-tac-toe-game/assets/104643461/610a3c7c-140f-4bcf-8990-ebd702b16e96)
+### X-win screen
+![X-win](https://github.com/ishanGIT1995/tic-tac-toe-game/assets/104643461/58be166e-72f9-4392-bf18-ffbaead3ba54)
 
-![O win](https://github.com/ishanGIT1995/tic-tac-toe-game/assets/104643461/a9ebae12-e502-4604-a013-dab9895f9a2b)
+### O-win screen
+![O-win](https://github.com/ishanGIT1995/tic-tac-toe-game/assets/104643461/730ea710-b791-4802-a493-13c2a109a378)
+
+### GameDraw Screen
+![GameDraw](https://github.com/ishanGIT1995/tic-tac-toe-game/assets/104643461/61e8d191-148c-4dd0-82af-b32e57b81aec)
+
+### GameInProgreess Screen
+![InProgress](https://github.com/ishanGIT1995/tic-tac-toe-game/assets/104643461/0608409c-9834-46e0-b027-66d53a2b6607)
+
+
+
+
+
+
+
+
+
 
 
 

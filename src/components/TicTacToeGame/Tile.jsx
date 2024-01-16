@@ -22,9 +22,7 @@ const Tile = ({ tiles, onTileClick, tileIndex, playerTurn }) => {
             onClick={() => {
               onTileClick(0);
             }}
-            // className="ButtonClass hoverClass"
             className={`ButtonClass `}
-            // className={hoverClass}
           >
             {tiles[0]}{" "}
           </Button>

@@ -115,12 +115,6 @@ const Board = ({ tiles, setTiles }) => {
 
   return (
     <div>
-      {/* {playerTurn === PLAYER_X ? (
-        <h1>{`${PLAYER_X} Turn`}</h1>
-      ) : (
-        <h1>{`${PLAYER_O} Turn`}</h1>
-      )} */}
-
       {gameState === GameState.inProgress && <h1>{`${playerTurn} Turn`}</h1>}
 
       <Tile
